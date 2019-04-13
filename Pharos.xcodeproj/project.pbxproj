@@ -10,6 +10,12 @@
 		8D27294722616E9C00460415 /* tapMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27294622616E9B00460415 /* tapMe.png */; };
 		8D27294922616ED000460415 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294822616ED000460415 /* FeedViewController.swift */; };
 		8D27294B22616ED800460415 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294A22616ED800460415 /* PostViewController.swift */; };
+		8D27294D2261719200460415 /* DailyChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294C2261719200460415 /* DailyChallengeViewController.swift */; };
+		8D2729522261810F00460415 /* holesBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27294E2261810F00460415 /* holesBackground.png */; };
+		8D2729532261810F00460415 /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27294F2261810F00460415 /* hole.png */; };
+		8D2729542261810F00460415 /* mole.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2729502261810F00460415 /* mole.png */; };
+		8D2729552261810F00460415 /* greenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2729512261810F00460415 /* greenBackground.png */; };
+		8D2729572261813200460415 /* whackAMoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2729562261813200460415 /* whackAMoleViewController.swift */; };
 		8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36C2261589F00767158 /* AppDelegate.swift */; };
 		8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36E2261589F00767158 /* ChatViewController.swift */; };
 		8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B3702261589F00767158 /* SocietyViewController.swift */; };
@@ -25,6 +31,12 @@
 		8D27294622616E9B00460415 /* tapMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapMe.png; sourceTree = "<group>"; };
 		8D27294822616ED000460415 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8D27294A22616ED800460415 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8D27294C2261719200460415 /* DailyChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeViewController.swift; sourceTree = "<group>"; };
+		8D27294E2261810F00460415 /* holesBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holesBackground.png; sourceTree = "<group>"; };
+		8D27294F2261810F00460415 /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
+		8D2729502261810F00460415 /* mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole.png; sourceTree = "<group>"; };
+		8D2729512261810F00460415 /* greenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackground.png; sourceTree = "<group>"; };
+		8D2729562261813200460415 /* whackAMoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whackAMoleViewController.swift; sourceTree = "<group>"; };
 		8D69B3692261589F00767158 /* Pharos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69B36C2261589F00767158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D69B36E2261589F00767158 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -75,13 +87,19 @@
 			children = (
 				8D69B36C2261589F00767158 /* AppDelegate.swift */,
 				8D69B3722261589F00767158 /* Main.storyboard */,
-				8D69B36E2261589F00767158 /* ChatViewController.swift */,
-				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D69B382226161CB00767158 /* LogInViewController.swift */,
+				8D69B36E2261589F00767158 /* ChatViewController.swift */,
+				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
+				8D2729562261813200460415 /* whackAMoleViewController.swift */,
+				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
 				8D27294622616E9B00460415 /* tapMe.png */,
+				8D2729512261810F00460415 /* greenBackground.png */,
+				8D27294F2261810F00460415 /* hole.png */,
+				8D27294E2261810F00460415 /* holesBackground.png */,
+				8D2729502261810F00460415 /* mole.png */,
 				8D69B377226158A000767158 /* LaunchScreen.storyboard */,
 				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
 				8D69B37A226158A000767158 /* Info.plist */,
@@ -166,11 +184,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2729552261810F00460415 /* greenBackground.png in Resources */,
+				8D2729542261810F00460415 /* mole.png in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
+				8D2729532261810F00460415 /* hole.png in Resources */,
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
+				8D2729522261810F00460415 /* holesBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +258,9 @@
 			files = (
 				8D27294B22616ED800460415 /* PostViewController.swift in Sources */,
 				8D69B383226161CB00767158 /* LogInViewController.swift in Sources */,
+				8D27294D2261719200460415 /* DailyChallengeViewController.swift in Sources */,
 				8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */,
+				8D2729572261813200460415 /* whackAMoleViewController.swift in Sources */,
 				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
