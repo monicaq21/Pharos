@@ -69,17 +69,46 @@ PODS:
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
   - leveldb-library (1.20)
+  - libwebp (1.0.2):
+    - libwebp/core (= 1.0.2)
+    - libwebp/dec (= 1.0.2)
+    - libwebp/demux (= 1.0.2)
+    - libwebp/dsp (= 1.0.2)
+    - libwebp/enc (= 1.0.2)
+    - libwebp/mux (= 1.0.2)
+    - libwebp/utils (= 1.0.2)
+    - libwebp/webp (= 1.0.2)
+  - libwebp/core (1.0.2):
+    - libwebp/webp
+  - libwebp/dec (1.0.2):
+    - libwebp/core
+  - libwebp/demux (1.0.2):
+    - libwebp/core
+  - libwebp/dsp (1.0.2):
+    - libwebp/core
+  - libwebp/enc (1.0.2):
+    - libwebp/core
+  - libwebp/mux (1.0.2):
+    - libwebp/core
+  - libwebp/utils (1.0.2):
+    - libwebp/core
+  - libwebp/webp (1.0.2)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - SDWebImage/Core (4.4.6)
+  - SDWebImage/WebP (4.4.6):
+    - libwebp (>= 0.5)
+    - SDWebImage/Core
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - SDWebImage/WebP
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -95,7 +124,9 @@ SPEC REPOS:
     - GoogleUtilities
     - GTMSessionFetcher
     - leveldb-library
+    - libwebp
     - nanopb
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
@@ -110,8 +141,10 @@ SPEC CHECKSUMS:
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  libwebp: b068a3bd7c45f7460f6715be7bed1a18fd5d6b48
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
 
-PODFILE CHECKSUM: 38f0edbc1d5fc5aa73721b7b5146add54190eebb
+PODFILE CHECKSUM: 4b33bfdce79d4652e015c6213d6de860e5b8354a
 
 COCOAPODS: 1.6.1

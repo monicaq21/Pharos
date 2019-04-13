@@ -16,6 +16,10 @@
 		8D2729542261810F00460415 /* mole.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2729502261810F00460415 /* mole.png */; };
 		8D2729552261810F00460415 /* greenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2729512261810F00460415 /* greenBackground.png */; };
 		8D2729572261813200460415 /* whackAMoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2729562261813200460415 /* whackAMoleViewController.swift */; };
+		8D272959226237D600460415 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D272958226237D600460415 /* FeedCell.swift */; };
+		8D27295B2262984100460415 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D27295A2262984100460415 /* SDWebImage.framework */; };
+		8D27295D2262A47E00460415 /* App icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27295C2262A47E00460415 /* App icon.png */; };
+		8D27295F2262A9FD00460415 /* yellowBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27295E2262A9FD00460415 /* yellowBackground.png */; };
 		8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36C2261589F00767158 /* AppDelegate.swift */; };
 		8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36E2261589F00767158 /* ChatViewController.swift */; };
 		8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B3702261589F00767158 /* SocietyViewController.swift */; };
@@ -37,6 +41,10 @@
 		8D2729502261810F00460415 /* mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole.png; sourceTree = "<group>"; };
 		8D2729512261810F00460415 /* greenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackground.png; sourceTree = "<group>"; };
 		8D2729562261813200460415 /* whackAMoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whackAMoleViewController.swift; sourceTree = "<group>"; };
+		8D272958226237D600460415 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		8D27295A2262984100460415 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27295C2262A47E00460415 /* App icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon.png"; sourceTree = "<group>"; };
+		8D27295E2262A9FD00460415 /* yellowBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowBackground.png; sourceTree = "<group>"; };
 		8D69B3692261589F00767158 /* Pharos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69B36C2261589F00767158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D69B36E2261589F00767158 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D27295B2262984100460415 /* SDWebImage.framework in Frameworks */,
 				DB2E9CB43725EC5DF81DACDE /* Pods_Pharos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,10 +102,13 @@
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
 				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
+				8D272958226237D600460415 /* FeedCell.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
+				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
+				8D27295E2262A9FD00460415 /* yellowBackground.png */,
 				8D27294F2261810F00460415 /* hole.png */,
 				8D27294E2261810F00460415 /* holesBackground.png */,
 				8D2729502261810F00460415 /* mole.png */,
@@ -110,6 +122,7 @@
 		A8E257C2FFCDDD4565A6DE06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D27295A2262984100460415 /* SDWebImage.framework */,
 				B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */,
 			);
 			name = Frameworks;
@@ -184,7 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D27295F2262A9FD00460415 /* yellowBackground.png in Resources */,
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
+				8D27295D2262A47E00460415 /* App icon.png in Resources */,
 				8D2729542261810F00460415 /* mole.png in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
@@ -210,7 +225,9 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Pharos/Pods-Pharos-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -219,7 +236,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +283,7 @@
 				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
+				8D272959226237D600460415 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

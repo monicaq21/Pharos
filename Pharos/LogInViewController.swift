@@ -5,17 +5,34 @@ import FirebaseAuth
 class LogInViewController: UIViewController {
 
     @IBOutlet weak var emailText: UITextField!
-    @IBOutlet weak var firstNameText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    
+    @IBOutlet weak var logInButton: UIButton!
+    @IBOutlet weak var signUpButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        logInButton.layer.cornerRadius = logInButton.frame.height / 2
+        logInButton.layer.shadowColor = UIColor.white.cgColor
+        logInButton.layer.shadowRadius = 5
+        logInButton.layer.shadowOpacity = 0.5
+        logInButton.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
+        signUpButton.layer.cornerRadius = logInButton.frame.height / 2
+        signUpButton.layer.shadowColor = UIColor.white.cgColor
+        signUpButton.layer.shadowRadius = 5
+        signUpButton.layer.shadowOpacity = 0.5
+        signUpButton.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
     }
     
     @IBAction func logInClicked(_ sender: Any) {
         
-        if emailText.text != "" && firstNameText.text != "" {
+        if emailText.text != "" && passwordText.text != "" {
             
-            Auth.auth().signIn(withEmail: emailText.text!, password: firstNameText.text!) { (user, error) in
+            Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!) { (user, error) in
                 
                 if error != nil {
                     
@@ -28,7 +45,7 @@ class LogInViewController: UIViewController {
                     
                     UserDefaults.standard.set(self.emailText.text!, forKey: "email")
                     UserDefaults.standard.synchronize()
-
+                    
                     let delegate = UIApplication.shared.delegate as? AppDelegate
 
                     delegate?.rememberLogin()
@@ -37,6 +54,7 @@ class LogInViewController: UIViewController {
                 
             }
             
+            Auth.auth().currentUser!.createProfileChangeRequest().displayName = self.passwordText.text
             
         } else {
             
@@ -53,9 +71,9 @@ class LogInViewController: UIViewController {
     
     @IBAction func signUpClicked(_ sender: Any) {
         
-        if emailText.text != "" && firstNameText.text != "" {
+        if emailText.text != "" && passwordText.text != "" {
             
-            Auth.auth().createUser(withEmail: emailText.text!, password: firstNameText.text!) { (user, error) in
+            Auth.auth().createUser(withEmail: emailText.text!, password: passwordText.text!) { (user, error) in
                 
                 //if there is an error:
                 //(localized description: describe the specific problem of the error)
@@ -70,15 +88,15 @@ class LogInViewController: UIViewController {
                     
                     UserDefaults.standard.set(self.emailText.text!, forKey: "email")
                     UserDefaults.standard.synchronize()
-
+                    
                     let delegate = UIApplication.shared.delegate as? AppDelegate
 
                     delegate?.rememberLogin()
                     
                 }
                 
-                
             }
+            
         } else {
             
             let alert = UIAlertController(title: "Error", message: "Please enter your email and first name", preferredStyle: UIAlertController.Style.alert)
