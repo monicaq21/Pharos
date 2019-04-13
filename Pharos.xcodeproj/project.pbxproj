@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D27294722616E9C00460415 /* tapMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27294622616E9B00460415 /* tapMe.png */; };
+		8D27294922616ED000460415 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294822616ED000460415 /* FeedViewController.swift */; };
+		8D27294B22616ED800460415 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294A22616ED800460415 /* PostViewController.swift */; };
 		8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36C2261589F00767158 /* AppDelegate.swift */; };
-		8D69B36F2261589F00767158 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36E2261589F00767158 /* FirstViewController.swift */; };
-		8D69B3712261589F00767158 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B3702261589F00767158 /* SecondViewController.swift */; };
+		8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36E2261589F00767158 /* ChatViewController.swift */; };
+		8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B3702261589F00767158 /* SocietyViewController.swift */; };
 		8D69B3742261589F00767158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B3722261589F00767158 /* Main.storyboard */; };
 		8D69B376226158A000767158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B375226158A000767158 /* Assets.xcassets */; };
 		8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B377226158A000767158 /* LaunchScreen.storyboard */; };
+		8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B38022615C5600767158 /* GoogleService-Info.plist */; };
+		8D69B383226161CB00767158 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B382226161CB00767158 /* LogInViewController.swift */; };
+		DB2E9CB43725EC5DF81DACDE /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D27294622616E9B00460415 /* tapMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapMe.png; sourceTree = "<group>"; };
+		8D27294822616ED000460415 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8D27294A22616ED800460415 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		8D69B3692261589F00767158 /* Pharos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69B36C2261589F00767158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D69B36E2261589F00767158 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8D69B3702261589F00767158 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8D69B36E2261589F00767158 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8D69B3702261589F00767158 /* SocietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietyViewController.swift; sourceTree = "<group>"; };
 		8D69B3732261589F00767158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D69B375226158A000767158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D69B378226158A000767158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D69B37A226158A000767158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D69B38022615C5600767158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D69B382226161CB00767158 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.debug.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.release.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2E9CB43725EC5DF81DACDE /* Pods_Pharos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				8D69B36B2261589F00767158 /* Pharos */,
 				8D69B36A2261589F00767158 /* Products */,
+				FF3402F70DCDDDD526A9FA75 /* Pods */,
+				A8E257C2FFCDDD4565A6DE06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				8D69B36C2261589F00767158 /* AppDelegate.swift */,
-				8D69B36E2261589F00767158 /* FirstViewController.swift */,
-				8D69B3702261589F00767158 /* SecondViewController.swift */,
 				8D69B3722261589F00767158 /* Main.storyboard */,
+				8D69B36E2261589F00767158 /* ChatViewController.swift */,
+				8D69B3702261589F00767158 /* SocietyViewController.swift */,
+				8D69B382226161CB00767158 /* LogInViewController.swift */,
+				8D27294822616ED000460415 /* FeedViewController.swift */,
+				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
+				8D27294622616E9B00460415 /* tapMe.png */,
 				8D69B377226158A000767158 /* LaunchScreen.storyboard */,
+				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
 				8D69B37A226158A000767158 /* Info.plist */,
 			);
 			path = Pharos;
+			sourceTree = "<group>";
+		};
+		A8E257C2FFCDDD4565A6DE06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF3402F70DCDDDD526A9FA75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */,
+				EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69B37D226158A000767158 /* Build configuration list for PBXNativeTarget "Pharos" */;
 			buildPhases = (
+				E05552558C2C1C889696AF5D /* [CP] Check Pods Manifest.lock */,
 				8D69B3652261589F00767158 /* Sources */,
 				8D69B3662261589F00767158 /* Frameworks */,
 				8D69B3672261589F00767158 /* Resources */,
+				BC5E9E875D913E9DAB654925 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +167,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
+				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
+				8D27294722616E9C00460415 /* tapMe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC5E9E875D913E9DAB654925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pharos/Pods-Pharos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pharos/Pods-Pharos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E05552558C2C1C889696AF5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D69B3652261589F00767158 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D69B3712261589F00767158 /* SecondViewController.swift in Sources */,
+				8D27294B22616ED800460415 /* PostViewController.swift in Sources */,
+				8D69B383226161CB00767158 /* LogInViewController.swift in Sources */,
+				8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */,
+				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
-				8D69B36F2261589F00767158 /* FirstViewController.swift in Sources */,
+				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +383,7 @@
 		};
 		8D69B37E226158A000767158 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +402,7 @@
 		};
 		8D69B37F226158A000767158 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
