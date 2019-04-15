@@ -19,7 +19,6 @@
 		8D272959226237D600460415 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D272958226237D600460415 /* FeedCell.swift */; };
 		8D27295B2262984100460415 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D27295A2262984100460415 /* SDWebImage.framework */; };
 		8D27295D2262A47E00460415 /* App icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27295C2262A47E00460415 /* App icon.png */; };
-		8D27295F2262A9FD00460415 /* yellowBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27295E2262A9FD00460415 /* yellowBackground.png */; };
 		8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36C2261589F00767158 /* AppDelegate.swift */; };
 		8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B36E2261589F00767158 /* ChatViewController.swift */; };
 		8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B3702261589F00767158 /* SocietyViewController.swift */; };
@@ -28,10 +27,14 @@
 		8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B377226158A000767158 /* LaunchScreen.storyboard */; };
 		8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B38022615C5600767158 /* GoogleService-Info.plist */; };
 		8D69B383226161CB00767158 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B382226161CB00767158 /* LogInViewController.swift */; };
-		DB2E9CB43725EC5DF81DACDE /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */; };
+		8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */; };
+		8D7E62A02262BFB8001A01EB /* starNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629F2262BFB8001A01EB /* starNight.jpg */; };
+		A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1220022FD305BDCD941ECDB6 /* Pods-Pharos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.release.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.release.xcconfig"; sourceTree = "<group>"; };
+		302BAC588B33D8CBE1586F24 /* Pods-Pharos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.debug.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.debug.xcconfig"; sourceTree = "<group>"; };
 		8D27294622616E9B00460415 /* tapMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapMe.png; sourceTree = "<group>"; };
 		8D27294822616ED000460415 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8D27294A22616ED800460415 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +47,6 @@
 		8D272958226237D600460415 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8D27295A2262984100460415 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D27295C2262A47E00460415 /* App icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App icon.png"; sourceTree = "<group>"; };
-		8D27295E2262A9FD00460415 /* yellowBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowBackground.png; sourceTree = "<group>"; };
 		8D69B3692261589F00767158 /* Pharos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D69B36C2261589F00767158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D69B36E2261589F00767158 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -55,9 +57,9 @@
 		8D69B37A226158A000767158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D69B38022615C5600767158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D69B382226161CB00767158 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.debug.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.debug.xcconfig"; sourceTree = "<group>"; };
-		EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.release.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.release.xcconfig"; sourceTree = "<group>"; };
+		8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LaunchScreenAnimation.mov; sourceTree = "<group>"; };
+		8D7E629F2262BFB8001A01EB /* starNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starNight.jpg; sourceTree = "<group>"; };
+		AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D27295B2262984100460415 /* SDWebImage.framework in Frameworks */,
-				DB2E9CB43725EC5DF81DACDE /* Pods_Pharos.framework in Frameworks */,
+				A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +97,13 @@
 			isa = PBXGroup;
 			children = (
 				8D69B36C2261589F00767158 /* AppDelegate.swift */,
+				8D69B377226158A000767158 /* LaunchScreen.storyboard */,
 				8D69B3722261589F00767158 /* Main.storyboard */,
 				8D69B382226161CB00767158 /* LogInViewController.swift */,
 				8D69B36E2261589F00767158 /* ChatViewController.swift */,
+				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
-				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
 				8D272958226237D600460415 /* FeedCell.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
@@ -108,11 +111,11 @@
 				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
-				8D27295E2262A9FD00460415 /* yellowBackground.png */,
 				8D27294F2261810F00460415 /* hole.png */,
 				8D27294E2261810F00460415 /* holesBackground.png */,
+				8D7E629F2262BFB8001A01EB /* starNight.jpg */,
 				8D2729502261810F00460415 /* mole.png */,
-				8D69B377226158A000767158 /* LaunchScreen.storyboard */,
+				8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */,
 				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
 				8D69B37A226158A000767158 /* Info.plist */,
 			);
@@ -123,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				8D27295A2262984100460415 /* SDWebImage.framework */,
-				B7831130E690D74BC9B11CBA /* Pods_Pharos.framework */,
+				AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,8 +134,8 @@
 		FF3402F70DCDDDD526A9FA75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */,
-				EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */,
+				302BAC588B33D8CBE1586F24 /* Pods-Pharos.debug.xcconfig */,
+				1220022FD305BDCD941ECDB6 /* Pods-Pharos.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -144,11 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D69B37D226158A000767158 /* Build configuration list for PBXNativeTarget "Pharos" */;
 			buildPhases = (
-				E05552558C2C1C889696AF5D /* [CP] Check Pods Manifest.lock */,
+				1FFE3DE3B313B64C13E1F66C /* [CP] Check Pods Manifest.lock */,
 				8D69B3652261589F00767158 /* Sources */,
 				8D69B3662261589F00767158 /* Frameworks */,
 				8D69B3672261589F00767158 /* Resources */,
-				BC5E9E875D913E9DAB654925 /* [CP] Embed Pods Frameworks */,
+				9928A2CB06177C5E9C5FC86F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D27295F2262A9FD00460415 /* yellowBackground.png in Resources */,
+				8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */,
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
 				8D27295D2262A47E00460415 /* App icon.png in Resources */,
 				8D2729542261810F00460415 /* mole.png in Resources */,
@@ -208,13 +211,36 @@
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
 				8D2729522261810F00460415 /* holesBackground.png in Resources */,
+				8D7E62A02262BFB8001A01EB /* starNight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BC5E9E875D913E9DAB654925 /* [CP] Embed Pods Frameworks */ = {
+		1FFE3DE3B313B64C13E1F66C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9928A2CB06177C5E9C5FC86F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,28 +270,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pharos/Pods-Pharos-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E05552558C2C1C889696AF5D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pharos-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -427,7 +431,7 @@
 		};
 		8D69B37E226158A000767158 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1089CBA482CA90B5B122015 /* Pods-Pharos.debug.xcconfig */;
+			baseConfigurationReference = 302BAC588B33D8CBE1586F24 /* Pods-Pharos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,7 +450,7 @@
 		};
 		8D69B37F226158A000767158 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC8F27D7FE62348BE2B2099C /* Pods-Pharos.release.xcconfig */;
+			baseConfigurationReference = 1220022FD305BDCD941ECDB6 /* Pods-Pharos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
