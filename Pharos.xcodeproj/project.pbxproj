@@ -28,7 +28,13 @@
 		8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B38022615C5600767158 /* GoogleService-Info.plist */; };
 		8D69B383226161CB00767158 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B382226161CB00767158 /* LogInViewController.swift */; };
 		8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */; };
-		8D7E62A02262BFB8001A01EB /* starNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629F2262BFB8001A01EB /* starNight.jpg */; };
+		8DDCD5C222657D61009C3D61 /* dailyJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */; };
+		8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */; };
+		8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */; };
+		8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */; };
+		8DDCD5CA226621D3009C3D61 /* goldBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */; };
+		8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */; };
+		8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5CD226634EC009C3D61 /* starNight.jpg */; };
 		A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +64,13 @@
 		8D69B38022615C5600767158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D69B382226161CB00767158 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LaunchScreenAnimation.mov; sourceTree = "<group>"; };
-		8D7E629F2262BFB8001A01EB /* starNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starNight.jpg; sourceTree = "<group>"; };
+		8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyJokesViewController.swift; sourceTree = "<group>"; };
+		8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQuotesViewController.swift; sourceTree = "<group>"; };
+		8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyRiddlesViewController.swift; sourceTree = "<group>"; };
+		8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightViewBackground.jpg; sourceTree = "<group>"; };
+		8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldBackground.jpg; sourceTree = "<group>"; };
+		8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterBackground.jpg; sourceTree = "<group>"; };
+		8DDCD5CD226634EC009C3D61 /* starNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starNight.jpg; sourceTree = "<group>"; };
 		AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +116,9 @@
 				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
+				8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */,
+				8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */,
+				8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
 				8D272958226237D600460415 /* FeedCell.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
@@ -111,9 +126,12 @@
 				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
-				8D27294F2261810F00460415 /* hole.png */,
+				8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */,
 				8D27294E2261810F00460415 /* holesBackground.png */,
-				8D7E629F2262BFB8001A01EB /* starNight.jpg */,
+				8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */,
+				8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */,
+				8DDCD5CD226634EC009C3D61 /* starNight.jpg */,
+				8D27294F2261810F00460415 /* hole.png */,
 				8D2729502261810F00460415 /* mole.png */,
 				8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */,
 				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
@@ -204,14 +222,17 @@
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
 				8D27295D2262A47E00460415 /* App icon.png in Resources */,
 				8D2729542261810F00460415 /* mole.png in Resources */,
+				8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
 				8D2729532261810F00460415 /* hole.png in Resources */,
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
+				8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */,
 				8D2729522261810F00460415 /* holesBackground.png in Resources */,
-				8D7E62A02262BFB8001A01EB /* starNight.jpg in Resources */,
+				8DDCD5CA226621D3009C3D61 /* goldBackground.jpg in Resources */,
+				8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */,
 				8D27294B22616ED800460415 /* PostViewController.swift in Sources */,
+				8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */,
 				8D69B383226161CB00767158 /* LogInViewController.swift in Sources */,
 				8D27294D2261719200460415 /* DailyChallengeViewController.swift in Sources */,
 				8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */,
@@ -288,6 +311,7 @@
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
 				8D272959226237D600460415 /* FeedCell.swift in Sources */,
+				8DDCD5C222657D61009C3D61 /* dailyJokesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

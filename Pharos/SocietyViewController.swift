@@ -14,13 +14,13 @@ class SocietyViewController: UIViewController {
         super.viewDidLoad()
         
         challengeButton.layer.cornerRadius = 7
-        challengeButton.layer.shadowColor = UIColor.gray.cgColor
+        challengeButton.layer.shadowColor = UIColor.blue.cgColor
         challengeButton.layer.shadowRadius = 10
         challengeButton.layer.shadowOpacity = 1
         challengeButton.layer.shadowOffset = CGSize(width: -10, height: 10)
         
         communityButton.layer.cornerRadius = 7
-        communityButton.layer.shadowColor = UIColor.red.cgColor
+        communityButton.layer.shadowColor = UIColor.blue.cgColor
         communityButton.layer.shadowRadius = 10
         communityButton.layer.shadowOpacity = 1
         communityButton.layer.shadowOffset = CGSize(width: -10, height: 10)

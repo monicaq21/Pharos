@@ -33,7 +33,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="XNJ-hm-ahV"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="36"/>
                                 <color key="textColor" red="0.96006380280000003" green="1" blue="0.97526179319999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
