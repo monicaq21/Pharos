@@ -8,7 +8,7 @@
 
 import UIKit
 
-class dailyJokesViewController: UIViewController {
+class dailyPunsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

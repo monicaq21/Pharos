@@ -28,7 +28,7 @@
 		8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B38022615C5600767158 /* GoogleService-Info.plist */; };
 		8D69B383226161CB00767158 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B382226161CB00767158 /* LogInViewController.swift */; };
 		8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */; };
-		8DDCD5C222657D61009C3D61 /* dailyJokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */; };
+		8DDCD5C222657D61009C3D61 /* dailyPunsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */; };
 		8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */; };
 		8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */; };
 		8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */; };
@@ -64,7 +64,7 @@
 		8D69B38022615C5600767158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D69B382226161CB00767158 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LaunchScreenAnimation.mov; sourceTree = "<group>"; };
-		8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyJokesViewController.swift; sourceTree = "<group>"; };
+		8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyPunsViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQuotesViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyRiddlesViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightViewBackground.jpg; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
 				8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */,
-				8DDCD5C122657D61009C3D61 /* dailyJokesViewController.swift */,
+				8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */,
 				8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
 				8D272958226237D600460415 /* FeedCell.swift */,
@@ -311,7 +311,7 @@
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
 				8D272959226237D600460415 /* FeedCell.swift in Sources */,
-				8DDCD5C222657D61009C3D61 /* dailyJokesViewController.swift in Sources */,
+				8DDCD5C222657D61009C3D61 /* dailyPunsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

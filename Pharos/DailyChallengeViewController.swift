@@ -2,37 +2,27 @@ import UIKit
 
 class DailyChallengeViewController: UIViewController {
     
-    let daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-    let gameSegues = ["toMondayGame", "toTuesdayGame", "toWednesdayGame", "toThursdayGame", "toFridayGame", "toSaturdayGame", "toSundayGame"]
+    @IBOutlet weak var todayLabel: UILabel!
+    
+    let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    let gameSegues = ["toSundayGame", "toMondayGame", "toTuesdayGame", "toWednesdayGame", "toThursdayGame", "toFridayGame", "toSaturdayGame"]
     
     var today: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let dateComponents = NSDateComponents()
-//        dateComponents.day = 4
-//        dateComponents.month = 12
-//        dateComponents.year = 2019
-//
-//        if let gregorianCalendar = NSCalendar(calendarIdentifier: .gregorian),
-//            let date = gregorianCalendar.date(from: dateComponents as DateComponents) {
-//
-//            weekday = gregorianCalendar.component(.weekday, from: date)
-//
-//            //friday is 4
-//
-//        }
-        
         let date = Date()
         let calendar = Calendar.current
-        today = calendar.component(.weekday, from: date)
+        today = calendar.component(.weekday, from: date) - 1
+        
+        todayLabel.text = daysOfWeek[today]
         
     }
     
     @IBAction func gameClicked(_ sender: Any) {
         
-        performSegue(withIdentifier: gameSegues[today - 1], sender: self)
+        performSegue(withIdentifier: gameSegues[today], sender: self)
         
     }
     

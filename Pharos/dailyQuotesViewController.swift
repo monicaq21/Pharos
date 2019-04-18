@@ -23,7 +23,7 @@ class dailyQuotesViewController: UIViewController {
                   "Enlightenment is the key to everything, and it is the key to intimacy, because it is the goal of true authenticity.",
                   "We need to find the courage to say no to the things and people that are not serving us if we want to rediscover ourselves and live our lives with authenticity.",
                   "I know of nothing more valuable, when it comes to the all-important virtue of authenticity, than simply being who you are.",
-                  "Reflect upon your present blessings--of which every man has many--not on your past misfortunes, of which all men have some.",
+                  "Reflect upon your present blessings - of which every man has many - not on your past misfortunes, of which all men have some.",
                   "Surprise yourself every day with your own courage.",
                   "We love life, not because we are used to living but because we are used to loving.",
                   "The beautiful journey of today can only begin when we learn to let go of yesterday.",
@@ -79,6 +79,7 @@ class dailyQuotesViewController: UIViewController {
         let calendar = Calendar.current
         let today = calendar.component(.day, from: date) - 1
         
+        quoteText.layer.cornerRadius = 10
         quoteText.text = quotes[today]
         speakerLabel.text = "--\(speakers[today])"
         
