@@ -1,9 +1,7 @@
 import UIKit
 
 class DailyChallengeViewController: UIViewController {
-    
-    @IBOutlet weak var todayLabel: UILabel!
-    
+
     let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     let gameSegues = ["toSundayGame", "toMondayGame", "toTuesdayGame", "toWednesdayGame", "toThursdayGame", "toFridayGame", "toSaturdayGame"]
     
@@ -16,7 +14,6 @@ class DailyChallengeViewController: UIViewController {
         let calendar = Calendar.current
         today = calendar.component(.weekday, from: date) - 1
         
-        todayLabel.text = daysOfWeek[today]
         
     }
     

@@ -28,7 +28,6 @@
 		8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D69B38022615C5600767158 /* GoogleService-Info.plist */; };
 		8D69B383226161CB00767158 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D69B382226161CB00767158 /* LogInViewController.swift */; };
 		8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */; };
-		8DDCD5C222657D61009C3D61 /* dailyPunsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */; };
 		8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */; };
 		8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */; };
 		8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */; };
@@ -36,6 +35,17 @@
 		8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */; };
 		8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DDCD5CD226634EC009C3D61 /* starNight.jpg */; };
 		A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */; };
+		D46471E7226A5311000507F1 /* towerNoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D46471E6226A5311000507F1 /* towerNoBackground.png */; };
+		D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471E8226A58E5000507F1 /* chatBackground.jpg */; };
+		D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */; };
+		D4964C80226A09210076403D /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C7F226A09200076403D /* blueBalloon.png */; };
+		D4964C83226A0B350076403D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C81226A0B350076403D /* GameViewController.swift */; };
+		D4964C84226A0B350076403D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C82226A0B350076403D /* GameScene.swift */; };
+		D4964C87226A0B420076403D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C85226A0B410076403D /* Settings.swift */; };
+		D4964C88226A0B420076403D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C86226A0B420076403D /* MenuScene.swift */; };
+		D4964C8A226A0CB90076403D /* colorLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C89226A0CB90076403D /* colorLogo.png */; };
+		D4964C8C226A0D530076403D /* ColorCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C8B226A0D530076403D /* ColorCircle.png */; };
+		D4964C8E226A0EF30076403D /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C8D226A0EF30076403D /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +74,6 @@
 		8D69B38022615C5600767158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D69B382226161CB00767158 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LaunchScreenAnimation.mov; sourceTree = "<group>"; };
-		8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyPunsViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQuotesViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyRiddlesViewController.swift; sourceTree = "<group>"; };
 		8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightViewBackground.jpg; sourceTree = "<group>"; };
@@ -72,6 +81,17 @@
 		8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterBackground.jpg; sourceTree = "<group>"; };
 		8DDCD5CD226634EC009C3D61 /* starNight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starNight.jpg; sourceTree = "<group>"; };
 		AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46471E6226A5311000507F1 /* towerNoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towerNoBackground.png; sourceTree = "<group>"; };
+		D46471E8226A58E5000507F1 /* chatBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chatBackground.jpg; sourceTree = "<group>"; };
+		D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
+		D4964C7F226A09200076403D /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
+		D4964C81226A0B350076403D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D4964C82226A0B350076403D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D4964C85226A0B410076403D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D4964C86226A0B420076403D /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		D4964C89226A0CB90076403D /* colorLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorLogo.png; path = "Assets.xcassets/logo .imageset/colorLogo.png"; sourceTree = "<group>"; };
+		D4964C8B226A0D530076403D /* ColorCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColorCircle.png; path = Assets.xcassets/ColorCircle.imageset/ColorCircle.png; sourceTree = "<group>"; };
+		D4964C8D226A0EF30076403D /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,23 +136,33 @@
 				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
+				D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */,
+				D4964C82226A0B350076403D /* GameScene.swift */,
+				D4964C81226A0B350076403D /* GameViewController.swift */,
+				D4964C86226A0B420076403D /* MenuScene.swift */,
+				D4964C85226A0B410076403D /* Settings.swift */,
 				8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */,
-				8DDCD5C122657D61009C3D61 /* dailyPunsViewController.swift */,
 				8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
 				8D272958226237D600460415 /* FeedCell.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
+				D46471E6226A5311000507F1 /* towerNoBackground.png */,
 				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
 				8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */,
+				D46471E8226A58E5000507F1 /* chatBackground.jpg */,
 				8D27294E2261810F00460415 /* holesBackground.png */,
 				8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */,
 				8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */,
 				8DDCD5CD226634EC009C3D61 /* starNight.jpg */,
 				8D27294F2261810F00460415 /* hole.png */,
+				D4964C89226A0CB90076403D /* colorLogo.png */,
+				D4964C8B226A0D530076403D /* ColorCircle.png */,
 				8D2729502261810F00460415 /* mole.png */,
+				D4964C8D226A0EF30076403D /* ball.png */,
+				D4964C7F226A09200076403D /* blueBalloon.png */,
 				8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */,
 				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
 				8D69B37A226158A000767158 /* Info.plist */,
@@ -219,19 +249,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */,
+				D4964C80226A09210076403D /* blueBalloon.png in Resources */,
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
 				8D27295D2262A47E00460415 /* App icon.png in Resources */,
 				8D2729542261810F00460415 /* mole.png in Resources */,
+				D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */,
 				8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
+				D4964C8A226A0CB90076403D /* colorLogo.png in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
+				D46471E7226A5311000507F1 /* towerNoBackground.png in Resources */,
 				8D2729532261810F00460415 /* hole.png in Resources */,
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
+				D4964C8E226A0EF30076403D /* ball.png in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
 				8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */,
 				8D2729522261810F00460415 /* holesBackground.png in Resources */,
 				8DDCD5CA226621D3009C3D61 /* goldBackground.jpg in Resources */,
+				D4964C8C226A0D530076403D /* ColorCircle.png in Resources */,
 				8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +336,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4964C88226A0B420076403D /* MenuScene.swift in Sources */,
+				D4964C84226A0B350076403D /* GameScene.swift in Sources */,
+				D4964C83226A0B350076403D /* GameViewController.swift in Sources */,
 				8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */,
 				8D27294B22616ED800460415 /* PostViewController.swift in Sources */,
 				8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */,
@@ -308,10 +347,11 @@
 				8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */,
 				8D2729572261813200460415 /* whackAMoleViewController.swift in Sources */,
 				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
+				D4964C87226A0B420076403D /* Settings.swift in Sources */,
+				D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
 				8D272959226237D600460415 /* FeedCell.swift in Sources */,
-				8DDCD5C222657D61009C3D61 /* dailyPunsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTG4D24862;
 				INFOPLIST_FILE = Pharos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LTG4D24862;
 				INFOPLIST_FILE = Pharos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

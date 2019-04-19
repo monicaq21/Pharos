@@ -9,16 +9,27 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     @IBOutlet weak var storyImage: UIImageView!
     @IBOutlet weak var storyDetails: UITextView!
+    @IBOutlet weak var shareButton: UIButton!
     
     var uuid = NSUUID().uuidString
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.storyDetails.delegate = self as! UITextViewDelegate
+        
+        shareButton.layer.borderColor = UIColor.blue.cgColor
+        shareButton.layer.borderWidth = 2
+        shareButton.layer.cornerRadius = shareButton.frame.height / 2
+        
         storyImage.isUserInteractionEnabled = true
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(PostViewController.chooseImage))
         storyImage.addGestureRecognizer(recognizer)
         
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     @objc func chooseImage() {

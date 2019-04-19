@@ -14,6 +14,9 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.emailText.delegate = self as? UITextFieldDelegate
+        self.passwordText.delegate = self as? UITextFieldDelegate
+        
         logInButton.layer.cornerRadius = logInButton.frame.height / 2
         logInButton.layer.shadowColor = UIColor.white.cgColor
         logInButton.layer.shadowRadius = 5
@@ -26,6 +29,10 @@ class LogInViewController: UIViewController {
         signUpButton.layer.shadowOpacity = 0.5
         signUpButton.layer.shadowOffset = CGSize(width: 0, height: 0)
         
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     @IBAction func logInClicked(_ sender: Any) {
@@ -54,7 +61,6 @@ class LogInViewController: UIViewController {
                 
             }
             
-            Auth.auth().currentUser!.createProfileChangeRequest().displayName = self.passwordText.text
             
         } else {
             
