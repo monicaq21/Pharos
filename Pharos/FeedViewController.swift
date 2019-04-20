@@ -17,6 +17,10 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.delegate = self
         tableView.dataSource = self
         
+        let backgroundImage = UIImage(named: "marble.jpg")
+        let imageView = UIImageView(image: backgroundImage)
+        self.tableView.backgroundView = imageView
+        
         getDataFromServer()
         
     }
@@ -60,9 +64,7 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FeedCell
         
         cell.usernameLabel.text = userEmailArray[indexPath.row]
-        
         cell.postText.text = postCommentArray[indexPath.row]
-        
         cell.postImage.sd_setImage(with: URL(string: self.postImageURLArray[indexPath.row]), completed: nil)
         
         return cell

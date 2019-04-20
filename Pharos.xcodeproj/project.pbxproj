@@ -37,6 +37,13 @@
 		A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */; };
 		D46471E7226A5311000507F1 /* towerNoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D46471E6226A5311000507F1 /* towerNoBackground.png */; };
 		D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471E8226A58E5000507F1 /* chatBackground.jpg */; };
+		D46471EF226A8B38000507F1 /* cloudsBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471EE226A8B38000507F1 /* cloudsBackground.jpg */; };
+		D46471F1226A8B65000507F1 /* lamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471F0226A8B65000507F1 /* lamp.jpg */; };
+		D46471F3226A8C0D000507F1 /* leaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471F2226A8C0C000507F1 /* leaves.jpg */; };
+		D46471F5226A9129000507F1 /* chair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471F4226A9128000507F1 /* chair.jpg */; };
+		D46471F7226A92CB000507F1 /* marble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471F6226A92CA000507F1 /* marble.jpg */; };
+		D46471F9226AAD37000507F1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46471F8226AAD36000507F1 /* MessageUI.framework */; };
+		D4647200226AB699000507F1 /* CodeZillaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D46471FF226AB698000507F1 /* CodeZillaWhite.png */; };
 		D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */; };
 		D4964C80226A09210076403D /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C7F226A09200076403D /* blueBalloon.png */; };
 		D4964C83226A0B350076403D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C81226A0B350076403D /* GameViewController.swift */; };
@@ -83,6 +90,13 @@
 		AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46471E6226A5311000507F1 /* towerNoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towerNoBackground.png; sourceTree = "<group>"; };
 		D46471E8226A58E5000507F1 /* chatBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chatBackground.jpg; sourceTree = "<group>"; };
+		D46471EE226A8B38000507F1 /* cloudsBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloudsBackground.jpg; sourceTree = "<group>"; };
+		D46471F0226A8B65000507F1 /* lamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamp.jpg; sourceTree = "<group>"; };
+		D46471F2226A8C0C000507F1 /* leaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leaves.jpg; sourceTree = "<group>"; };
+		D46471F4226A9128000507F1 /* chair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chair.jpg; sourceTree = "<group>"; };
+		D46471F6226A92CA000507F1 /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
+		D46471F8226AAD36000507F1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D46471FF226AB698000507F1 /* CodeZillaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeZillaWhite.png; sourceTree = "<group>"; };
 		D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
 		D4964C7F226A09200076403D /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
 		D4964C81226A0B350076403D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46471F9226AAD37000507F1 /* MessageUI.framework in Frameworks */,
 				8D27295B2262984100460415 /* SDWebImage.framework in Frameworks */,
 				A70305197CF0367E36CBF0F7 /* Pods_Pharos.framework in Frameworks */,
 			);
@@ -147,6 +162,7 @@
 				8D272958226237D600460415 /* FeedCell.swift */,
 				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
+				D46471FF226AB698000507F1 /* CodeZillaWhite.png */,
 				D46471E6226A5311000507F1 /* towerNoBackground.png */,
 				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
@@ -155,9 +171,14 @@
 				D46471E8226A58E5000507F1 /* chatBackground.jpg */,
 				8D27294E2261810F00460415 /* holesBackground.png */,
 				8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */,
+				D46471EE226A8B38000507F1 /* cloudsBackground.jpg */,
 				8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */,
 				8DDCD5CD226634EC009C3D61 /* starNight.jpg */,
+				D46471F4226A9128000507F1 /* chair.jpg */,
+				D46471F0226A8B65000507F1 /* lamp.jpg */,
 				8D27294F2261810F00460415 /* hole.png */,
+				D46471F6226A92CA000507F1 /* marble.jpg */,
+				D46471F2226A8C0C000507F1 /* leaves.jpg */,
 				D4964C89226A0CB90076403D /* colorLogo.png */,
 				D4964C8B226A0D530076403D /* ColorCircle.png */,
 				8D2729502261810F00460415 /* mole.png */,
@@ -173,6 +194,7 @@
 		A8E257C2FFCDDD4565A6DE06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D46471F8226AAD36000507F1 /* MessageUI.framework */,
 				8D27295A2262984100460415 /* SDWebImage.framework */,
 				AF3B6BC46C47FE4C87A52CA6 /* Pods_Pharos.framework */,
 			);
@@ -253,9 +275,12 @@
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
 				8D27295D2262A47E00460415 /* App icon.png in Resources */,
 				8D2729542261810F00460415 /* mole.png in Resources */,
+				D46471F1226A8B65000507F1 /* lamp.jpg in Resources */,
 				D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */,
 				8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
+				D46471F3226A8C0D000507F1 /* leaves.jpg in Resources */,
+				D46471EF226A8B38000507F1 /* cloudsBackground.jpg in Resources */,
 				D4964C8A226A0CB90076403D /* colorLogo.png in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
@@ -263,10 +288,13 @@
 				8D2729532261810F00460415 /* hole.png in Resources */,
 				8D69B3742261589F00767158 /* Main.storyboard in Resources */,
 				D4964C8E226A0EF30076403D /* ball.png in Resources */,
+				D46471F7226A92CB000507F1 /* marble.jpg in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
 				8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */,
+				D4647200226AB699000507F1 /* CodeZillaWhite.png in Resources */,
 				8D2729522261810F00460415 /* holesBackground.png in Resources */,
 				8DDCD5CA226621D3009C3D61 /* goldBackground.jpg in Resources */,
+				D46471F5226A9129000507F1 /* chair.jpg in Resources */,
 				D4964C8C226A0D530076403D /* ColorCircle.png in Resources */,
 				8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */,
 			);

@@ -16,7 +16,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.storyDetails.delegate = self as! UITextViewDelegate
+        self.storyDetails.delegate = self as? UITextViewDelegate
         
         shareButton.layer.borderColor = UIColor.blue.cgColor
         shareButton.layer.borderWidth = 2

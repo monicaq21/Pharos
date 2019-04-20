@@ -12,8 +12,8 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        chatButton.layer.cornerRadius = videoButton.frame.height / 2
-        videoButton.layer.cornerRadius = videoButton.frame.height / 2
+        chatButton.layer.cornerRadius = 7
+        videoButton.layer.cornerRadius = 7
         
     }
     

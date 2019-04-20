@@ -79,9 +79,8 @@ class dailyQuotesViewController: UIViewController {
         let calendar = Calendar.current
         let today = calendar.component(.day, from: date) - 1
         
-        quoteText.layer.cornerRadius = 10
         quoteText.text = quotes[today]
-        speakerLabel.text = "--\(speakers[today])"
+        speakerLabel.text = "- \(speakers[today])."
         
         
     }

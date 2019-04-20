@@ -82,7 +82,6 @@ class dailyRiddlesViewController: UIViewController {
         
         today = calendar.component(.day, from: date) - 1
         
-        riddleText.layer.cornerRadius = 10
         riddleText.text = riddleQuestions[today]
         answerButton.layer.cornerRadius = 20
         AnswerLabel.text = ""

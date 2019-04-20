@@ -26,6 +26,7 @@ class PopTheBalloonViewController: UIViewController {
     
     var score  = 0
     var counter = 0
+    var prevPos = -1
     var timer = Timer()
     var hidingBall = Timer()
     var balloonArray = [UIImageView]()
@@ -118,7 +119,7 @@ class PopTheBalloonViewController: UIViewController {
             
             
             //creating alert
-            let alert = UIAlertController(title: "Time", message: "Your TIme Is Up" , preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Time's Up", message: "Good job! You have scored \(score) points.", preferredStyle: UIAlertController.Style.alert)
             let ok = UIAlertAction(title: "Done", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(ok)
             
@@ -148,8 +149,15 @@ class PopTheBalloonViewController: UIViewController {
             balloon.isHidden = true
         }
         
-        let randomNumber = Int(arc4random_uniform(UInt32(balloonArray.count - 1)))
+        var randomNumber = Int(arc4random_uniform(UInt32(balloonArray.count - 1)))
+        
+        
+        while (randomNumber == prevPos) {
+            randomNumber = Int(arc4random_uniform(UInt32(balloonArray.count - 1)))
+        }
+        
         balloonArray[randomNumber].isHidden = false
+        prevPos = randomNumber
         
     }
 }
