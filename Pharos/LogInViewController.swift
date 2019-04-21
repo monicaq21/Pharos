@@ -38,7 +38,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func logInClicked(_ sender: Any) {
         
-        if emailText.text != "" && passwordText.text != "" && nameText.text != "" {
+        if emailText.text != "" && passwordText.text != "" {
             
             Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!) { (user, error) in
                 

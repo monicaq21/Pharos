@@ -17,6 +17,8 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.delegate = self
         tableView.dataSource = self
         
+        tableView.reloadData()
+        
         let backgroundImage = UIImage(named: "marble.jpg")
         let imageView = UIImageView(image: backgroundImage)
         self.tableView.backgroundView = imageView
@@ -67,6 +69,8 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.usernameLabel.text = userNameArray[indexPath.row]
         cell.postText.text = postCommentArray[indexPath.row]
         cell.postImage.sd_setImage(with: URL(string: self.postImageURLArray[indexPath.row]), completed: nil)
+        
+        cell.postText.isUserInteractionEnabled = false
         
         return cell
         

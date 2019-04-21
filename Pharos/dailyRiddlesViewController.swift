@@ -85,6 +85,8 @@ class dailyRiddlesViewController: UIViewController {
         riddleText.text = riddleQuestions[today]
         answerButton.layer.cornerRadius = 20
         AnswerLabel.text = ""
+        
+        riddleText.isUserInteractionEnabled = false
 
     }
     

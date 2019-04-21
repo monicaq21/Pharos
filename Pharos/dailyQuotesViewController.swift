@@ -80,8 +80,9 @@ class dailyQuotesViewController: UIViewController {
         let today = calendar.component(.day, from: date) - 1
         
         quoteText.text = quotes[today]
-        speakerLabel.text = "- \(speakers[today])."
+        speakerLabel.text = "- \(speakers[today])"
         
+        quoteText.isUserInteractionEnabled = false
         
     }
     

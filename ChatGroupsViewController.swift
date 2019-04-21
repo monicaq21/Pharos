@@ -68,6 +68,7 @@ class ChatGroupsViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "groupCell")!
         cell.textLabel?.text = groups[indexPath.row].GroupName
+        cell.accessoryType = .disclosureIndicator
         return cell
 
     }
