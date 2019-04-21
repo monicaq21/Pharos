@@ -30,6 +30,5 @@ class ChatViewController: UIViewController {
         delegate.rememberLogin()
         
     }
-    
 }
 

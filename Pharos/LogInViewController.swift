@@ -6,6 +6,7 @@ class LogInViewController: UIViewController {
 
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
+    @IBOutlet weak var nameText: UITextField!
     
     @IBOutlet weak var logInButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
@@ -37,7 +38,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func logInClicked(_ sender: Any) {
         
-        if emailText.text != "" && passwordText.text != "" {
+        if emailText.text != "" && passwordText.text != "" && nameText.text != "" {
             
             Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!) { (user, error) in
                 
@@ -49,7 +50,7 @@ class LogInViewController: UIViewController {
                     self.present(alert, animated: true, completion: nil)
                     
                 } else {
-                    
+
                     UserDefaults.standard.set(self.emailText.text!, forKey: "email")
                     UserDefaults.standard.synchronize()
                     
@@ -77,7 +78,7 @@ class LogInViewController: UIViewController {
     
     @IBAction func signUpClicked(_ sender: Any) {
         
-        if emailText.text != "" && passwordText.text != "" {
+        if emailText.text != "" && passwordText.text != "" && nameText.text != "" {
             
             Auth.auth().createUser(withEmail: emailText.text!, password: passwordText.text!) { (user, error) in
                 
@@ -94,6 +95,11 @@ class LogInViewController: UIViewController {
                     
                     UserDefaults.standard.set(self.emailText.text!, forKey: "email")
                     UserDefaults.standard.synchronize()
+                    
+                    let ref = Database.database().reference()
+                    let userID = Auth.auth().currentUser!.uid
+                    ref.child("users").child(userID).child("Name").setValue(self.nameText.text)
+                    
                     
                     let delegate = UIApplication.shared.delegate as? AppDelegate
 

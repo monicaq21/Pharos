@@ -44,6 +44,9 @@
 		D46471F7226A92CB000507F1 /* marble.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D46471F6226A92CA000507F1 /* marble.jpg */; };
 		D46471F9226AAD37000507F1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46471F8226AAD36000507F1 /* MessageUI.framework */; };
 		D4647200226AB699000507F1 /* CodeZillaWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = D46471FF226AB698000507F1 /* CodeZillaWhite.png */; };
+		D4647204226ABB11000507F1 /* ChatGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647203226ABB11000507F1 /* ChatGroupsViewController.swift */; };
+		D4647206226B79F7000507F1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647205226B79F7000507F1 /* Group.swift */; };
+		D4647208226BEA8A000507F1 /* ChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647207226BEA8A000507F1 /* ChatGroupViewController.swift */; };
 		D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */; };
 		D4964C80226A09210076403D /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C7F226A09200076403D /* blueBalloon.png */; };
 		D4964C83226A0B350076403D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C81226A0B350076403D /* GameViewController.swift */; };
@@ -97,6 +100,9 @@
 		D46471F6226A92CA000507F1 /* marble.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = marble.jpg; sourceTree = "<group>"; };
 		D46471F8226AAD36000507F1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D46471FF226AB698000507F1 /* CodeZillaWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeZillaWhite.png; sourceTree = "<group>"; };
+		D4647203226ABB11000507F1 /* ChatGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatGroupsViewController.swift; path = ../ChatGroupsViewController.swift; sourceTree = "<group>"; };
+		D4647205226B79F7000507F1 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		D4647207226BEA8A000507F1 /* ChatGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGroupViewController.swift; sourceTree = "<group>"; };
 		D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
 		D4964C7F226A09200076403D /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
 		D4964C81226A0B350076403D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 				8D69B3722261589F00767158 /* Main.storyboard */,
 				8D69B382226161CB00767158 /* LogInViewController.swift */,
 				8D69B36E2261589F00767158 /* ChatViewController.swift */,
+				D4647203226ABB11000507F1 /* ChatGroupsViewController.swift */,
+				D4647207226BEA8A000507F1 /* ChatGroupViewController.swift */,
+				D4647205226B79F7000507F1 /* Group.swift */,
 				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
@@ -372,13 +381,16 @@
 				8DDCD5C422657D79009C3D61 /* dailyQuotesViewController.swift in Sources */,
 				8D69B383226161CB00767158 /* LogInViewController.swift in Sources */,
 				8D27294D2261719200460415 /* DailyChallengeViewController.swift in Sources */,
+				D4647208226BEA8A000507F1 /* ChatGroupViewController.swift in Sources */,
 				8D69B3712261589F00767158 /* SocietyViewController.swift in Sources */,
+				D4647206226B79F7000507F1 /* Group.swift in Sources */,
 				8D2729572261813200460415 /* whackAMoleViewController.swift in Sources */,
 				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
 				D4964C87226A0B420076403D /* Settings.swift in Sources */,
 				D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
+				D4647204226ABB11000507F1 /* ChatGroupsViewController.swift in Sources */,
 				8D272959226237D600460415 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -76,13 +76,21 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                             let imageURL = url?.absoluteString
                             
                             let databaseReference = Database.database().reference()
+                            let userID = Auth.auth().currentUser!.uid
+                            databaseReference.child("users").child(userID).child("Name").observeSingleEvent(of: .value, with: { (snapshot) in
+                                if let userName = snapshot.value as? String {
+                                    
+                                    let post = ["image" : imageURL!, "postedby" : userName, "posttext" : self.storyDetails.text!, "uuid" : self.uuid] as [String : Any]
+                                    databaseReference.child("users").child((Auth.auth().currentUser?.uid)!).child("post").childByAutoId().setValue(post)
+                                    
+                                    self.storyImage.image = UIImage(named: "tapMe.png")
+                                    self.storyDetails.text = ""
+                                    self.navigationController?.popViewController(animated: true)
+                                    
+                                }
+                            })
                             
-                            let post = ["image" : imageURL!, "postedby" : Auth.auth().currentUser!.email!, "posttext" : self.storyDetails.text!, "uuid" : self.uuid] as [String : Any]
-                            databaseReference.child("users").child((Auth.auth().currentUser?.uid)!).child("post").childByAutoId().setValue(post)
                             
-                            self.storyImage.image = UIImage(named: "tapMe.png")
-                            self.storyDetails.text = ""
-                            self.navigationController?.popViewController(animated: true)
                             
                         }
                     })
