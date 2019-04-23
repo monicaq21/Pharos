@@ -22,6 +22,9 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         shareButton.layer.borderWidth = 2
         shareButton.layer.cornerRadius = shareButton.frame.height / 2
         
+        storyDetails.layer.borderColor = UIColor.black.cgColor
+        storyDetails.layer.borderWidth = 2
+        
         storyImage.isUserInteractionEnabled = true
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(PostViewController.chooseImage))
         storyImage.addGestureRecognizer(recognizer)

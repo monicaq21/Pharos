@@ -1,11 +1,3 @@
-//
-//  MenuScene.swift
-//  Colour Switch
-//
-//  Created by 이수진 on 2019-04-17.
-//  Copyright © 2019 이수진. All rights reserved.
-//
-
 import SpriteKit
 
 class MenuScene: SKScene {

@@ -1,11 +1,3 @@
-//
-//  Settings.swift
-//  Colour Switch
-//
-//  Created by 이수진 on 2019-04-14.
-//  Copyright © 2019 이수진. All rights reserved.
-//
-
 import SpriteKit
 
 enum PhysicsCategories {

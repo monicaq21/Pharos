@@ -18,7 +18,7 @@ class DailyChallengeViewController: UIViewController {
     }
     
     @IBAction func gameClicked(_ sender: Any) {
-        
+
         performSegue(withIdentifier: gameSegues[today], sender: self)
         
     }
@@ -26,12 +26,6 @@ class DailyChallengeViewController: UIViewController {
     @IBAction func quoteClicked(_ sender: Any) {
         
         performSegue(withIdentifier: "toQuote", sender: self)
-        
-    }
-    
-    @IBAction func jokeClicked(_ sender: Any) {
-        
-        performSegue(withIdentifier: "toJoke", sender: self)
         
     }
     

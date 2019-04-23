@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D27294722616E9C00460415 /* tapMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D27294622616E9B00460415 /* tapMe.png */; };
 		8D27294922616ED000460415 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294822616ED000460415 /* FeedViewController.swift */; };
 		8D27294B22616ED800460415 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294A22616ED800460415 /* PostViewController.swift */; };
 		8D27294D2261719200460415 /* DailyChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27294C2261719200460415 /* DailyChallengeViewController.swift */; };
@@ -78,6 +77,7 @@
 		D48BEA09226EBB210056AA1E /* ISpy6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA01226EBB210056AA1E /* ISpy6.jpg */; };
 		D48BEA0A226EBB210056AA1E /* ISpy8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA02226EBB210056AA1E /* ISpy8.jpg */; };
 		D48BEA0C226EBB910056AA1E /* ISpyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BEA0B226EBB910056AA1E /* ISpyViewController.swift */; };
+		D48BEA12226FB9C70056AA1E /* tapMe.png in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA11226FB9C60056AA1E /* tapMe.png */; };
 		D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */; };
 		D4964C80226A09210076403D /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C7F226A09200076403D /* blueBalloon.png */; };
 		D4964C83226A0B350076403D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C81226A0B350076403D /* GameViewController.swift */; };
@@ -99,7 +99,6 @@
 /* Begin PBXFileReference section */
 		1220022FD305BDCD941ECDB6 /* Pods-Pharos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.release.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.release.xcconfig"; sourceTree = "<group>"; };
 		302BAC588B33D8CBE1586F24 /* Pods-Pharos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharos.debug.xcconfig"; path = "Target Support Files/Pods-Pharos/Pods-Pharos.debug.xcconfig"; sourceTree = "<group>"; };
-		8D27294622616E9B00460415 /* tapMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapMe.png; sourceTree = "<group>"; };
 		8D27294822616ED000460415 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8D27294A22616ED800460415 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		8D27294C2261719200460415 /* DailyChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +172,7 @@
 		D48BEA01226EBB210056AA1E /* ISpy6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy6.jpg; sourceTree = "<group>"; };
 		D48BEA02226EBB210056AA1E /* ISpy8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy8.jpg; sourceTree = "<group>"; };
 		D48BEA0B226EBB910056AA1E /* ISpyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISpyViewController.swift; sourceTree = "<group>"; };
+		D48BEA11226FB9C60056AA1E /* tapMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapMe.png; sourceTree = "<group>"; };
 		D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
 		D4964C7F226A09200076403D /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
 		D4964C81226A0B350076403D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -262,7 +262,7 @@
 				D46471E6226A5311000507F1 /* towerNoBackground.png */,
 				D4E8B7B8226D1B1700AC22F2 /* ballonChairBackground.jpg */,
 				8D27295C2262A47E00460415 /* App icon.png */,
-				8D27294622616E9B00460415 /* tapMe.png */,
+				D48BEA11226FB9C60056AA1E /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
 				8DDCD5C722662132009C3D61 /* nightViewBackground.jpg */,
 				D46471E8226A58E5000507F1 /* chatBackground.jpg */,
@@ -461,6 +461,7 @@
 				D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */,
 				8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
+				D48BEA12226FB9C70056AA1E /* tapMe.png in Resources */,
 				D48BEA06226EBB210056AA1E /* ISpy4.jpg in Resources */,
 				D48BEA09226EBB210056AA1E /* ISpy6.jpg in Resources */,
 				D46471F3226A8C0D000507F1 /* leaves.jpg in Resources */,
@@ -479,7 +480,6 @@
 				D46471F7226A92CB000507F1 /* marble.jpg in Resources */,
 				D48BEA05226EBB210056AA1E /* ISpy1.jpg in Resources */,
 				D48BEA04226EBB210056AA1E /* ISpy3.jpg in Resources */,
-				8D27294722616E9C00460415 /* tapMe.png in Resources */,
 				D48BEA0A226EBB210056AA1E /* ISpy8.jpg in Resources */,
 				D4E8B7C3226E325400AC22F2 /* palmBackground.jpg in Resources */,
 				8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */,
