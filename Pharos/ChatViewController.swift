@@ -9,6 +9,7 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var chatButton: UIButton!
     @IBOutlet weak var videoButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -16,6 +17,7 @@ class ChatViewController: UIViewController {
         videoButton.layer.cornerRadius = 7
         
     }
+    
     
     @IBAction func logoutClicked(_ sender: Any) {
         

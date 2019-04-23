@@ -23,15 +23,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="IZn-p5-Dxf">
-                                <rect key="frame" x="40" y="146" width="299" height="285"/>
+                                <rect key="frame" x="20" y="146" width="335" height="285"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="285" id="P7b-ck-hdr"/>
+                                    <constraint firstAttribute="height" constant="285" id="uue-xo-0MR"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading Pharos..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31c-qo-EaQ">
                                 <rect key="frame" x="38" y="707" width="356" height="84"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="XNJ-hm-ahV"/>
+                                    <constraint firstAttribute="height" constant="84" id="yz3-Df-5mH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="36"/>
                                 <color key="textColor" red="0.96006380280000003" green="1" blue="0.97526179319999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -40,12 +40,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96006380280000003" green="1" blue="0.97526179319999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="IZn-p5-Dxf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="10Y-sq-ZK9"/>
-                            <constraint firstItem="IZn-p5-Dxf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="102" id="6iT-UI-cpj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="31c-qo-EaQ" secondAttribute="bottom" constant="71" id="Btp-SR-PWZ"/>
-                            <constraint firstItem="31c-qo-EaQ" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="RZI-CN-MJe"/>
-                            <constraint firstItem="31c-qo-EaQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="RnG-36-BQR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IZn-p5-Dxf" secondAttribute="trailing" constant="75" id="Yyi-Dy-hbR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IZn-p5-Dxf" secondAttribute="trailing" constant="59" id="7Jq-tG-YyH"/>
+                            <constraint firstItem="IZn-p5-Dxf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="T9b-wu-N7u"/>
+                            <constraint firstItem="31c-qo-EaQ" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="XOd-NZ-fWz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="31c-qo-EaQ" secondAttribute="bottom" constant="71" id="ZhD-UW-uCA"/>
+                            <constraint firstItem="IZn-p5-Dxf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="102" id="gqK-Ht-C2I"/>
+                            <constraint firstItem="31c-qo-EaQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="t3S-oY-Dir"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

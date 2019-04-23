@@ -2,7 +2,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class LogInViewController: UIViewController {
+class LogInViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
@@ -10,7 +10,9 @@ class LogInViewController: UIViewController {
     
     @IBOutlet weak var logInButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
+    @IBOutlet weak var helpButton: UIButton!
     
+    let transition = CircularTransition()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,11 +32,39 @@ class LogInViewController: UIViewController {
         signUpButton.layer.shadowOpacity = 0.5
         signUpButton.layer.shadowOffset = CGSize(width: 0, height: 0)
         
+        helpButton.layer.cornerRadius = helpButton.frame.size.height / 2
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let helpVC = segue.destination as! HelpViewController
+        helpVC.transitioningDelegate = self
+        helpVC.modalPresentationStyle = .custom
+    }
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .present
+        transition.startingPoint = helpButton.center
+        transition.circleColor = helpButton.backgroundColor!
+        
+        return transition
+    }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        transition.transitionMode = .dismiss
+        transition.startingPoint = helpButton.center
+        transition.circleColor = helpButton.backgroundColor!
+        
+        return transition
+    }
+    
+    
+    
     
     @IBAction func logInClicked(_ sender: Any) {
         
@@ -65,7 +95,7 @@ class LogInViewController: UIViewController {
             
         } else {
             
-            let alert = UIAlertController(title: "Error", message: "Please enter your email and first name", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: UIAlertController.Style.alert)
             let okay = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
             alert.addAction(okay)
             self.present(alert, animated: true, completion: nil)
@@ -111,7 +141,7 @@ class LogInViewController: UIViewController {
             
         } else {
             
-            let alert = UIAlertController(title: "Error", message: "Please enter your email and first name", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: "Error", message: "Please enter your email, password, and first name", preferredStyle: UIAlertController.Style.alert)
             let okay = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
             alert.addAction(okay)
             self.present(alert, animated: true, completion: nil)

@@ -5,6 +5,7 @@ class ChatGroupViewController: UIViewController, UITableViewDelegate, UITableVie
     
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var chatTableView: UITableView!
+    @IBOutlet weak var sendButton: UIButton!
     
     var group:Group?
     var chatMessages = [Message]()
@@ -16,6 +17,8 @@ class ChatGroupViewController: UIViewController, UITableViewDelegate, UITableVie
         chatTableView.dataSource = self
         chatTableView.separatorStyle = .none
         chatTableView.allowsSelection = false
+        
+        sendButton.layer.cornerRadius = 7
         
         title = group?.GroupName
         

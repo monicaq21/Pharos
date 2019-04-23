@@ -3,7 +3,7 @@ import UIKit
 class DailyChallengeViewController: UIViewController {
 
     let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-    let gameSegues = ["toSundayGame", "toMondayGame", "toTuesdayGame", "toWednesdayGame", "toThursdayGame", "toFridayGame", "toSaturdayGame"]
+    let gameSegues = ["toSundayGame", "toMondayGame", "toTuesdaySaturdayGame", "toWednesdayGame", "toThursdayGame", "toFridayGame", "toTuesdaySaturdayGame"]
     
     var today: Int = 0
     

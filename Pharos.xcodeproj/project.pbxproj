@@ -66,6 +66,18 @@
 		D4647235226C151C000507F1 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647224226C151B000507F1 /* IQUITextFieldView+Additions.swift */; };
 		D4647236226C151C000507F1 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647225226C151B000507F1 /* IQUIView+Hierarchy.swift */; };
 		D4647237226C151C000507F1 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4647226226C151B000507F1 /* IQNSArray+Sort.swift */; };
+		D48BE9F5226EB6F30056AA1E /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9F4226EB6F30056AA1E /* meditation.mp3 */; };
+		D48BE9F7226EB70C0056AA1E /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BE9F6226EB70C0056AA1E /* MeditationViewController.swift */; };
+		D48BE9F9226EB8340056AA1E /* meditationBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9F8226EB8340056AA1E /* meditationBackground.jpg */; };
+		D48BEA03226EBB210056AA1E /* ISpy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9FB226EBB210056AA1E /* ISpy2.jpg */; };
+		D48BEA04226EBB210056AA1E /* ISpy3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9FC226EBB210056AA1E /* ISpy3.jpg */; };
+		D48BEA05226EBB210056AA1E /* ISpy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9FD226EBB210056AA1E /* ISpy1.jpg */; };
+		D48BEA06226EBB210056AA1E /* ISpy4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9FE226EBB210056AA1E /* ISpy4.jpg */; };
+		D48BEA07226EBB210056AA1E /* ISpy5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BE9FF226EBB210056AA1E /* ISpy5.jpg */; };
+		D48BEA08226EBB210056AA1E /* ISpy7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA00226EBB210056AA1E /* ISpy7.jpg */; };
+		D48BEA09226EBB210056AA1E /* ISpy6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA01226EBB210056AA1E /* ISpy6.jpg */; };
+		D48BEA0A226EBB210056AA1E /* ISpy8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D48BEA02226EBB210056AA1E /* ISpy8.jpg */; };
+		D48BEA0C226EBB910056AA1E /* ISpyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BEA0B226EBB910056AA1E /* ISpyViewController.swift */; };
 		D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */; };
 		D4964C80226A09210076403D /* blueBalloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C7F226A09200076403D /* blueBalloon.png */; };
 		D4964C83226A0B350076403D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4964C81226A0B350076403D /* GameViewController.swift */; };
@@ -75,6 +87,13 @@
 		D4964C8A226A0CB90076403D /* colorLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C89226A0CB90076403D /* colorLogo.png */; };
 		D4964C8C226A0D530076403D /* ColorCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C8B226A0D530076403D /* ColorCircle.png */; };
 		D4964C8E226A0EF30076403D /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D4964C8D226A0EF30076403D /* ball.png */; };
+		D4E8B7B9226D1B1700AC22F2 /* ballonChairBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4E8B7B8226D1B1700AC22F2 /* ballonChairBackground.jpg */; };
+		D4E8B7BB226E178C00AC22F2 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8B7BA226E178C00AC22F2 /* TipsViewController.swift */; };
+		D4E8B7BF226E224800AC22F2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8B7BE226E224800AC22F2 /* HelpViewController.swift */; };
+		D4E8B7C1226E250A00AC22F2 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8B7C0226E250A00AC22F2 /* CircularTransition.swift */; };
+		D4E8B7C3226E325400AC22F2 /* palmBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4E8B7C2226E325300AC22F2 /* palmBackground.jpg */; };
+		D4E8B7C5226E471900AC22F2 /* yogaVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = D4E8B7C4226E471900AC22F2 /* yogaVideo.mov */; };
+		D4E8B7C7226E478600AC22F2 /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E8B7C6226E478600AC22F2 /* YogaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +161,18 @@
 		D4647224226C151B000507F1 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		D4647225226C151B000507F1 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		D4647226226C151B000507F1 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		D48BE9F4226EB6F30056AA1E /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		D48BE9F6226EB70C0056AA1E /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
+		D48BE9F8226EB8340056AA1E /* meditationBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meditationBackground.jpg; sourceTree = "<group>"; };
+		D48BE9FB226EBB210056AA1E /* ISpy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy2.jpg; sourceTree = "<group>"; };
+		D48BE9FC226EBB210056AA1E /* ISpy3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy3.jpg; sourceTree = "<group>"; };
+		D48BE9FD226EBB210056AA1E /* ISpy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy1.jpg; sourceTree = "<group>"; };
+		D48BE9FE226EBB210056AA1E /* ISpy4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy4.jpg; sourceTree = "<group>"; };
+		D48BE9FF226EBB210056AA1E /* ISpy5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy5.jpg; sourceTree = "<group>"; };
+		D48BEA00226EBB210056AA1E /* ISpy7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy7.jpg; sourceTree = "<group>"; };
+		D48BEA01226EBB210056AA1E /* ISpy6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy6.jpg; sourceTree = "<group>"; };
+		D48BEA02226EBB210056AA1E /* ISpy8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ISpy8.jpg; sourceTree = "<group>"; };
+		D48BEA0B226EBB910056AA1E /* ISpyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISpyViewController.swift; sourceTree = "<group>"; };
 		D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTheBalloonViewController.swift; sourceTree = "<group>"; };
 		D4964C7F226A09200076403D /* blueBalloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBalloon.png; sourceTree = "<group>"; };
 		D4964C81226A0B350076403D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +182,13 @@
 		D4964C89226A0CB90076403D /* colorLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colorLogo.png; path = "Assets.xcassets/logo .imageset/colorLogo.png"; sourceTree = "<group>"; };
 		D4964C8B226A0D530076403D /* ColorCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ColorCircle.png; path = Assets.xcassets/ColorCircle.imageset/ColorCircle.png; sourceTree = "<group>"; };
 		D4964C8D226A0EF30076403D /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		D4E8B7B8226D1B1700AC22F2 /* ballonChairBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ballonChairBackground.jpg; sourceTree = "<group>"; };
+		D4E8B7BA226E178C00AC22F2 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		D4E8B7BE226E224800AC22F2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		D4E8B7C0226E250A00AC22F2 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		D4E8B7C2226E325300AC22F2 /* palmBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmBackground.jpg; sourceTree = "<group>"; };
+		D4E8B7C4226E471900AC22F2 /* yogaVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = yogaVideo.mov; sourceTree = "<group>"; };
+		D4E8B7C6226E478600AC22F2 /* YogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,21 +230,27 @@
 				8D69B36C2261589F00767158 /* AppDelegate.swift */,
 				8D69B377226158A000767158 /* LaunchScreen.storyboard */,
 				8D69B3722261589F00767158 /* Main.storyboard */,
+				D4E8B7BE226E224800AC22F2 /* HelpViewController.swift */,
 				8D69B382226161CB00767158 /* LogInViewController.swift */,
+				D4E8B7C0226E250A00AC22F2 /* CircularTransition.swift */,
 				8D69B36E2261589F00767158 /* ChatViewController.swift */,
 				D4647203226ABB11000507F1 /* ChatGroupsViewController.swift */,
 				D4647207226BEA8A000507F1 /* ChatGroupViewController.swift */,
 				D464720D226C1079000507F1 /* Messages.swift */,
 				D4647205226B79F7000507F1 /* Group.swift */,
 				D464720B226C0C9C000507F1 /* chatCell.swift */,
+				D4E8B7BA226E178C00AC22F2 /* TipsViewController.swift */,
 				8D69B3702261589F00767158 /* SocietyViewController.swift */,
 				8D27294C2261719200460415 /* DailyChallengeViewController.swift */,
 				8D2729562261813200460415 /* whackAMoleViewController.swift */,
+				D4E8B7C6226E478600AC22F2 /* YogaViewController.swift */,
 				D4964C79226A070B0076403D /* PopTheBalloonViewController.swift */,
+				D48BE9F6226EB70C0056AA1E /* MeditationViewController.swift */,
 				D4964C82226A0B350076403D /* GameScene.swift */,
 				D4964C81226A0B350076403D /* GameViewController.swift */,
 				D4964C86226A0B420076403D /* MenuScene.swift */,
 				D4964C85226A0B410076403D /* Settings.swift */,
+				D48BEA0B226EBB910056AA1E /* ISpyViewController.swift */,
 				8DDCD5C322657D79009C3D61 /* dailyQuotesViewController.swift */,
 				8DDCD5C522657D84009C3D61 /* dailyRiddlesViewController.swift */,
 				8D27294822616ED000460415 /* FeedViewController.swift */,
@@ -214,7 +258,9 @@
 				8D27294A22616ED800460415 /* PostViewController.swift */,
 				8D69B375226158A000767158 /* Assets.xcassets */,
 				D46471FF226AB698000507F1 /* CodeZillaWhite.png */,
+				D4E8B7C2226E325300AC22F2 /* palmBackground.jpg */,
 				D46471E6226A5311000507F1 /* towerNoBackground.png */,
+				D4E8B7B8226D1B1700AC22F2 /* ballonChairBackground.jpg */,
 				8D27295C2262A47E00460415 /* App icon.png */,
 				8D27294622616E9B00460415 /* tapMe.png */,
 				8D2729512261810F00460415 /* greenBackground.png */,
@@ -224,6 +270,8 @@
 				8DDCD5C9226621D3009C3D61 /* goldBackground.jpg */,
 				D46471EE226A8B38000507F1 /* cloudsBackground.jpg */,
 				8DDCD5CB226623F5009C3D61 /* waterBackground.jpg */,
+				D48BE9F8226EB8340056AA1E /* meditationBackground.jpg */,
+				D48BE9FA226EBB210056AA1E /* I Spy */,
 				8DDCD5CD226634EC009C3D61 /* starNight.jpg */,
 				D46471F4226A9128000507F1 /* chair.jpg */,
 				D46471F0226A8B65000507F1 /* lamp.jpg */,
@@ -235,6 +283,8 @@
 				8D2729502261810F00460415 /* mole.png */,
 				D4964C8D226A0EF30076403D /* ball.png */,
 				D4964C7F226A09200076403D /* blueBalloon.png */,
+				D48BE9F4226EB6F30056AA1E /* meditation.mp3 */,
+				D4E8B7C4226E471900AC22F2 /* yogaVideo.mov */,
 				8D7E629D2262BEF2001A01EB /* LaunchScreenAnimation.mov */,
 				8D69B38022615C5600767158 /* GoogleService-Info.plist */,
 				8D69B37A226158A000767158 /* Info.plist */,
@@ -317,6 +367,21 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		D48BE9FA226EBB210056AA1E /* I Spy */ = {
+			isa = PBXGroup;
+			children = (
+				D48BE9FB226EBB210056AA1E /* ISpy2.jpg */,
+				D48BE9FC226EBB210056AA1E /* ISpy3.jpg */,
+				D48BE9FD226EBB210056AA1E /* ISpy1.jpg */,
+				D48BE9FE226EBB210056AA1E /* ISpy4.jpg */,
+				D48BE9FF226EBB210056AA1E /* ISpy5.jpg */,
+				D48BEA00226EBB210056AA1E /* ISpy7.jpg */,
+				D48BEA01226EBB210056AA1E /* ISpy6.jpg */,
+				D48BEA02226EBB210056AA1E /* ISpy8.jpg */,
+			);
+			path = "I Spy";
+			sourceTree = "<group>";
+		};
 		FF3402F70DCDDDD526A9FA75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48BEA07226EBB210056AA1E /* ISpy5.jpg in Resources */,
 				8D7E629E2262BEF2001A01EB /* LaunchScreenAnimation.mov in Resources */,
 				D4964C80226A09210076403D /* blueBalloon.png in Resources */,
 				8D2729552261810F00460415 /* greenBackground.png in Resources */,
@@ -395,10 +461,15 @@
 				D46471E9226A58E6000507F1 /* chatBackground.jpg in Resources */,
 				8DDCD5C822662132009C3D61 /* nightViewBackground.jpg in Resources */,
 				8D69B379226158A000767158 /* LaunchScreen.storyboard in Resources */,
+				D48BEA06226EBB210056AA1E /* ISpy4.jpg in Resources */,
+				D48BEA09226EBB210056AA1E /* ISpy6.jpg in Resources */,
 				D46471F3226A8C0D000507F1 /* leaves.jpg in Resources */,
 				D46471EF226A8B38000507F1 /* cloudsBackground.jpg in Resources */,
 				D4964C8A226A0CB90076403D /* colorLogo.png in Resources */,
 				8D69B38122615C5600767158 /* GoogleService-Info.plist in Resources */,
+				D48BE9F9226EB8340056AA1E /* meditationBackground.jpg in Resources */,
+				D48BEA08226EBB210056AA1E /* ISpy7.jpg in Resources */,
+				D4E8B7C5226E471900AC22F2 /* yogaVideo.mov in Resources */,
 				8D69B376226158A000767158 /* Assets.xcassets in Resources */,
 				D46471E7226A5311000507F1 /* towerNoBackground.png in Resources */,
 				8D2729532261810F00460415 /* hole.png in Resources */,
@@ -406,12 +477,19 @@
 				D4964C8E226A0EF30076403D /* ball.png in Resources */,
 				D4647230226C151C000507F1 /* IQKeyboardManager.bundle in Resources */,
 				D46471F7226A92CB000507F1 /* marble.jpg in Resources */,
+				D48BEA05226EBB210056AA1E /* ISpy1.jpg in Resources */,
+				D48BEA04226EBB210056AA1E /* ISpy3.jpg in Resources */,
 				8D27294722616E9C00460415 /* tapMe.png in Resources */,
+				D48BEA0A226EBB210056AA1E /* ISpy8.jpg in Resources */,
+				D4E8B7C3226E325400AC22F2 /* palmBackground.jpg in Resources */,
 				8DDCD5CE226634EC009C3D61 /* starNight.jpg in Resources */,
 				D4647200226AB699000507F1 /* CodeZillaWhite.png in Resources */,
 				8D2729522261810F00460415 /* holesBackground.png in Resources */,
+				D48BE9F5226EB6F30056AA1E /* meditation.mp3 in Resources */,
 				8DDCD5CA226621D3009C3D61 /* goldBackground.jpg in Resources */,
+				D48BEA03226EBB210056AA1E /* ISpy2.jpg in Resources */,
 				D46471F5226A9129000507F1 /* chair.jpg in Resources */,
+				D4E8B7B9226D1B1700AC22F2 /* ballonChairBackground.jpg in Resources */,
 				D4964C8C226A0D530076403D /* ColorCircle.png in Resources */,
 				8DDCD5CC226623F5009C3D61 /* waterBackground.jpg in Resources */,
 			);
@@ -485,6 +563,8 @@
 				D4964C84226A0B350076403D /* GameScene.swift in Sources */,
 				D4964C83226A0B350076403D /* GameViewController.swift in Sources */,
 				8DDCD5C622657D84009C3D61 /* dailyRiddlesViewController.swift in Sources */,
+				D48BE9F7226EB70C0056AA1E /* MeditationViewController.swift in Sources */,
+				D4E8B7BB226E178C00AC22F2 /* TipsViewController.swift in Sources */,
 				D4647236226C151C000507F1 /* IQUIView+Hierarchy.swift in Sources */,
 				D4647231226C151C000507F1 /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				D4647235226C151C000507F1 /* IQUITextFieldView+Additions.swift in Sources */,
@@ -496,6 +576,7 @@
 				D4647208226BEA8A000507F1 /* ChatGroupViewController.swift in Sources */,
 				D4647233226C151C000507F1 /* IQUIScrollView+Additions.swift in Sources */,
 				D464722D226C151C000507F1 /* IQInvocation.swift in Sources */,
+				D4E8B7BF226E224800AC22F2 /* HelpViewController.swift in Sources */,
 				D464722C226C151C000507F1 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				D464722A226C151C000507F1 /* IQBarButtonItem.swift in Sources */,
 				D4647229226C151C000507F1 /* IQTitleBarButtonItem.swift in Sources */,
@@ -507,13 +588,16 @@
 				8D27294922616ED000460415 /* FeedViewController.swift in Sources */,
 				D464720C226C0C9C000507F1 /* chatCell.swift in Sources */,
 				D4964C87226A0B420076403D /* Settings.swift in Sources */,
+				D48BEA0C226EBB910056AA1E /* ISpyViewController.swift in Sources */,
 				D4647234226C151C000507F1 /* IQUIViewController+Additions.swift in Sources */,
 				D4647237226C151C000507F1 /* IQNSArray+Sort.swift in Sources */,
 				D4964C7A226A070B0076403D /* PopTheBalloonViewController.swift in Sources */,
+				D4E8B7C7226E478600AC22F2 /* YogaViewController.swift in Sources */,
 				D4647232226C151C000507F1 /* IQKeyboardManager.swift in Sources */,
 				8D69B36D2261589F00767158 /* AppDelegate.swift in Sources */,
 				D4647228226C151C000507F1 /* IQPreviousNextView.swift in Sources */,
 				8D69B36F2261589F00767158 /* ChatViewController.swift in Sources */,
+				D4E8B7C1226E250A00AC22F2 /* CircularTransition.swift in Sources */,
 				D4647227226C151C000507F1 /* IQTextView.swift in Sources */,
 				D4647204226ABB11000507F1 /* ChatGroupsViewController.swift in Sources */,
 				D464722F226C151C000507F1 /* IQKeyboardManagerConstants.swift in Sources */,

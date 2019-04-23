@@ -14,6 +14,10 @@ class ChatGroupsViewController: UIViewController, UITableViewDelegate, UITableVi
         self.groupsTable.delegate = self
         self.groupsTable.dataSource = self
         
+        let backgroundImage = UIImage(named: "ballonChairBackground.jpg")
+        let imageView = UIImageView(image: backgroundImage)
+        self.groupsTable.backgroundView = imageView
+        
         observeGroups()
         
     }
@@ -58,6 +62,7 @@ class ChatGroupsViewController: UIViewController, UITableViewDelegate, UITableVi
         self.navigationController?.pushViewController(chatGroupVC, animated: true)
         
         chatGroupVC.group = selectedGroup
+        self.groupsTable.deselectRow(at: indexPath, animated: true)
         
     }
     

@@ -28,11 +28,11 @@ class chatCell: UITableViewCell {
     func setBubbleType (type: bubbleType) {
         if type == .incoming {
             chatStack.alignment = .leading
-            chatSpeechBubble.backgroundColor = #colorLiteral(red: 0.7020623811, green: 1, blue: 0.9508612645, alpha: 1)
+            chatSpeechBubble.backgroundColor = #colorLiteral(red: 0.8836311263, green: 1, blue: 0.9600120889, alpha: 1)
             chatTextView.textColor = .black
         } else {
             chatStack.alignment = .trailing
-            chatSpeechBubble.backgroundColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
+            chatSpeechBubble.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
             chatTextView.textColor = .white
         }
     }

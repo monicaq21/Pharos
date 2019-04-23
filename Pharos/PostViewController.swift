@@ -18,7 +18,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         
         self.storyDetails.delegate = self as? UITextViewDelegate
         
-        shareButton.layer.borderColor = UIColor.blue.cgColor
+        shareButton.layer.borderColor = #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1)
         shareButton.layer.borderWidth = 2
         shareButton.layer.cornerRadius = shareButton.frame.height / 2
         
